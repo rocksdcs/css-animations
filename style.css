@@ -43,6 +43,7 @@ section {
     align-content: center;
     min-height: 1500px;
     padding: 5px;
+    overflow: hidden;
 }
 
 .hidden {
