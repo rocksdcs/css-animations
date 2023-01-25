@@ -6,6 +6,7 @@
 
 html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
     height: auto;
     background: rgb(32,32,32);
     scroll-behavior: smooth;
+    overflow: auto;
 }
 
 .ig-icon {
@@ -41,9 +43,8 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 1500px;
+    min-height: 1000px;
     padding: 5px;
-    overflow: hidden;
 }
 
 .hidden {
