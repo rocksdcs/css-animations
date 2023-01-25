@@ -24,7 +24,9 @@ body {
 .nav-container {
     display: flex;
     justify-content: space-between;
-    background: rgb(32, 32, 32);
+    background: rgb(20, 20, 20);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     color: white;
     height: 45px;
     font-size: 14px;
