@@ -39,7 +39,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 500px;
+    min-height: 400px;
     padding: 15px;
 }
 
@@ -50,10 +50,16 @@ section {
     transition: all 2s;
 }
 
-.hidden:nth-child(odd) {
+.hidden:nth-child(even) {
     transform: translateX(100%);
+    transition: all 2s;
 
 }
+
+.show:nth-child(even) {
+    transform: translateX(0);
+}
+
 .show {
     opacity: 1;
     filter: blur(0);
