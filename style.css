@@ -9,6 +9,8 @@ html {
 }
 
 body {
+    max-width: 100%;
+    height: auto;
     background: rgb(32,32,32);
     scroll-behavior: smooth;
 }
@@ -39,7 +41,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 800px;
+    min-height: 1500px;
     padding: 5px;
 }
 
