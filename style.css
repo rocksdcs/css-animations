@@ -41,7 +41,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 2500px;
+    min-height: 1500px;
     padding: 5px;
 }
 
