@@ -52,6 +52,7 @@ section {
 
 .hidden:nth-child(even) {
     transform: translateX(100%);
+
 }
 
 .show:nth-child(even) {
@@ -82,12 +83,4 @@ section {
     padding: 5px;
     color: white;
     font-weight: 600;
-}
-
-.arrow-up {
-    z-index: 6;
-    display: block;
-    float: right;
-    position: sticky;
-    bottom: 0;
 }
